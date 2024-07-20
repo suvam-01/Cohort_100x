@@ -45,7 +45,7 @@ str.replace(str,"there","javascript");
 console.log(str);
 
 
-let str="hello my name is acer aspire i am a laptop";
+// let str="hello my name is acer aspire i am a laptop";
 let ans=str.split(" ");
 // console.log(str);
 console.log(ans);
