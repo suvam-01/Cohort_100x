@@ -1,0 +1,75 @@
+1. pwd-prints the present working Directory
+
+2. ls-list all the folder and files
+
+3. ls -l => all the subdirectories
+
+4. ls -R <file_name> => all the subDirectories inside
+
+5. ls -la <file_name> =>all the hidden file/folder inside the file
+
+6. ls -lR | grep .js => all the js files in the current Directory
+
+7. ls *.js => list all the js file inside the current folder
+
+8. ls C*=> list all dirs starts with C and its Contents
+
+9. touch <filenmae> => create a file
+
+10. cat <filenmae> => read the content of file
+
+11. cat > <filenmae> => insert some data into file at the creation time
+
+12.  cat >> <filenmae> => insert some data into file after the creation of file
+
+13. mkdir <folder_name> =>create folder
+
+14. cd .. => go one step backward
+
+15 cd ../.. => goes two steps
+
+16. cd <folder_name> => goes to folder
+
+17. mkdir test && cd tets => create and moves simultaneously
+
+18. mv <old file/folder name> <new file/folder name> => rename a file or folder
+
+19. mv  <filenmae>  <foldername> => moves the file to specified folder within same Directory
+
+20. cp <filenmae>  <foldername> =>copy file from one to other loc
+
+21. cp -r <folder_path> <folder_path> =>copies folder
+
+22. rm <file_name> => deletes file
+
+23. rm -r <folder_name> => deletes folder
+
+
+
+read,write and executing permission
+=======================================
+
+syntax:- chmod -R  u/g/o +/- rwx folder_name
+syntax:- chmod u/g/o +/- rwx file_name
+
+chmod=> change mode         + =>adding
+u => user                   - => removing permissions
+g => group
+o => others
+
+24. chmod u+x <file.ext> => giving user the executing permission
+
+25. head <file_name> => show 10 lines from top
+
+26. tail <file_name> => show 10 lines from bottom
+
+27. head -20 <file_name> => show 20 lines from top
+
+28. wc <file> => lines, word count,characters of the file
+
+29. grep "word" <file_name> => search all the occurence of the word in the file
+
+30. grep "word" <file_name> | wc =>provuide word count of the given word
+
+31. grep -c "word/letter" <file_name> => shows the count 
+
